@@ -19,8 +19,6 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
         - `from recommender_template import Recommender`
         - `rec = Recommender('train_data.csv','movies_clean.csv')`
 
-`
-
 2. You can now run any of the methods in the recommender_template.py file. For instance:
     - `rec.best_params(latent_features_list=[8,9],learning_rate_list=[0.001,0.01])`
 
